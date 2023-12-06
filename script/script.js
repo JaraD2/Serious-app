@@ -70,24 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
       displayedText.textContent = imageData.text;
     }
   }
-  var wef = document.getElementById('image');
-  let i = 1; // Define i outside the event listener to maintain its value between function calls
-
-  // setInterval(function() {
-  //   specialEffects(body, 'shake');
-  // }, 5000);
-
-  
-
-  // setInterval(function() {
-  //   if (i > 4) {
-  //     i = 1; 
-  //     console.log('i reset');
-  //   }
-  //   specialEffectsSwitch(i);
-  //   i++;
-
-  // }, 1000);
+  var i = 1;
 function specialEffectsSwitch(i) {
   switch (i) {
     case 1:
